@@ -8,6 +8,7 @@ from setuptools.command.develop import develop
 from pagedown import VERSION
 
 
+
 def get_submodules():
     if path.exists('.git'):
         check_call(['rm', '-rf', 'pagedown/static/pagedown'])
